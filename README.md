@@ -1,5 +1,5 @@
 # BACKGROUNG GENERATOR
-## [Check it here](https://sehbaz.github.io/background-generator/)
+## [Check it here](https://sehbaz.github.io/background-generator/) :fire:
 ## This project is created as to understand how DOM works.
 
 Project uses color picker which pickes the color up from the input type color and as you pick the color up the background of your body keeps updating as per the user input.
