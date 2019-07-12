@@ -3,5 +3,5 @@ body {
   text-align: center;
   letter-spacing: 0.2em;
   top: 10%;
-  background-image: linear-gradient(to right, red, blue);
+  background-image: linear-gradient(to right, #00ff00, #0000ff);
 }
