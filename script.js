@@ -1,4 +1,4 @@
-var css = document.querySelector("h3");
+var css = document.querySelector("p");
 
 // Selecting the Color picker using the class name on html code
 var color1 = document.querySelector(".color1");
