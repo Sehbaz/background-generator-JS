@@ -6,4 +6,4 @@ Project uses color picker which pickes the color up from the input type color an
 
 This will generate the gradient color from right to left which you can see the tags.
 
-I have used pure Javascript in order to achive the background color and html is used to display the event occring.
+I have used pure Javascript in order to achieve the background color and html is used to display the event occurring.
