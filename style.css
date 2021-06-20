@@ -12,6 +12,40 @@ body {
   margin-top: 30px;
   max-width: 500px;
 }
+.color-pick {
+  margin: 10px;
+  border-radius: 3px;
+  border: 0px;
+}
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #079bf5;
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 5px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 #079bf5;
+    box-shadow: 0 0 0 0 #079bf5;
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 5px rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 5px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
 @media only screen and (max-width: 900px) {
   .card {
     width: 60vw;
@@ -20,5 +54,8 @@ body {
 @media only screen and (max-width: 600px) {
   .card {
     width: 70vw;
+  }
+  .color-pick {
+    margin: 5px;
   }
 }
